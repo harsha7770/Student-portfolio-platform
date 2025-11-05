@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sportify | Play With Passion</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Sportify</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#sports">Sports</a></li>
+        <li><a href="#matches">Matches</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Play. Win. Repeat.</h1>
+      <p>Join the world of champions and feel the adrenaline rush!</p>
+      <a href="#sports" class="btn">Explore Sports</a>
+    </div>
+  </section>
+
+  <!-- Sports Section -->
+  <section id="sports" class="sports-section">
+    <h2>Popular Sports</h2>
+    <div class="sports-container">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x250/?football" alt="Football">
+        <h3>Football</h3>
+        <p>The most loved and watched sport across the world.</p>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x250/?cricket" alt="Cricket">
+        <h3>Cricket</h3>
+        <p>Bat, ball, and glory — the heartbeat of millions.</p>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x250/?basketball" alt="Basketball">
+        <h3>Basketball</h3>
+        <p>Where teamwork and speed make the difference.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Matches Section -->
+  <section id="matches" class="matches-section">
+    <h2>Upcoming Matches</h2>
+    <div class="match-cards">
+      <div class="match">
+        <h3>India vs Australia</h3>
+        <p>Cricket | 15th Oct, 7:00 PM</p>
+      </div>
+      <div class="match">
+        <h3>FC Barcelona vs Real Madrid</h3>
+        <p>Football | 18th Oct, 9:30 PM</p>
+      </div>
+      <div class="match">
+        <h3>LA Lakers vs Miami Heat</h3>
+        <p>Basketball | 20th Oct, 8:00 PM</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- News Section -->
+  <section id="news" class="news-section">
+    <h2>Latest Sports News</h2>
+    <div class="news-container">
+      <div class="news-item">
+        <h3>Cricket World Cup Fever!</h3>
+        <p>Teams around the globe are gearing up for the 2025 World Cup.</p>
+      </div>
+      <div class="news-item">
+        <h3>Football Transfer Updates</h3>
+        <p>Top players are switching clubs ahead of the new season.</p>
+      </div>
+      <div class="news-item">
+        <h3>Olympics 2025 Announced</h3>
+        <p>New sports added and fresh talents ready to shine.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Sportify | Designed with ❤️ by Yashwin</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
